@@ -1,0 +1,12 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Ignore large data files
+3D Points - WGR-P05 - Layer 1 and 3 Combined.txt
+3D Points with normals - WGR-P05 - Layer 1 and 3 Combined.txt
+WGR-P05 - Layer 1 and 3 Combined.stl
+WGR-P05.ply
+
+.DS_Store
