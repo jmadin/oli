@@ -1,6 +1,6 @@
 # Surface complexity for Oli
 
-You need to pop the data file you sent me called "3D Points - WGR-P05 - Layer 1 and 3 Combined.txt" in the `data/oli` folder.
+You need to pop the `plot 1` folder you sent me into the `data/oli` folder.
 
 Then you should be able to just run the `analysis.R` code. There are essentially these steps:
 
@@ -20,7 +20,16 @@ R | Surface rugosity calculated using `surfaceArea` function in R
 R_theory | Surface rugosity calculated from theory ()
 H | The height range (or height range at L)
 
-### Example results
+# Example results
 
-![](figs/fig1.png)
-![](figs/fig2.png)
+### 80x80mm bounding box
+
+![](figs/roc_all.png)
+![](figs/roc_int_all.png)
+![](figs/roc_int_mus_all.png)
+
+### 40x40mm bounding box (quadrants)
+
+![](figs/roc.png)
+![](figs/roc_int.png)
+![](figs/roc_int_mus.png)
